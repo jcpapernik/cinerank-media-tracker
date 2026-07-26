@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/cinerank-media-tracker//_next/:path+",
+        "destination": "/cinerank-media-tracker/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
